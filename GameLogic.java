@@ -257,7 +257,7 @@ public class GameLogic implements PlayableLogic{
 						Pieces.get(i).getPlace().getCol()==p.getCol()-1)
 							{L = true;}
 					if(Pieces.get(i).getPlace().getCol()==p.getCol()&&
-						Pieces.get(i).getPlace().getRow()==p.getRow()+1)
+						Pieces.get(i).getPlace().getRow()==p.getRow()-1)
 							{U = true;}
 				}
 			}
@@ -281,7 +281,7 @@ public class GameLogic implements PlayableLogic{
 						Pieces.get(i).getPlace().getCol()==p.getCol()-1)
 							{L = true;}
 					if(Pieces.get(i).getPlace().getCol()==p.getCol()&&
-						Pieces.get(i).getPlace().getRow()==p.getRow()-1)
+						Pieces.get(i).getPlace().getRow()==p.getRow()+1)
 							{D = true;}
 				}
 			}
